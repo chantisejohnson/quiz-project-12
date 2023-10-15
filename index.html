@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="style.css">
+<body> 
+
+  <div class="container" id="q1">
+    
+     <h1 class="header">Trivia Game</h1>
+    
+    <div class="q1"></div>
+    <p class="questionOne"> Question</p>
+    <div class="firstAnswer">
+    <button class="answer" id="answerOne" onclick="disable">Answer One</button>
+     <!-- <span class="incorrect">This answer is incorrect. Please try again.</span> -->
+    </div>
+    
+    <div class="secondAnswer">
+    <button class="answer" id="answerTwo" onclick="disable">Answer Two</button>
+<!--<span class="correct">This is Correct!</span> -->
+ </div>
+    
+    <div class="thirdAnswer">
+    <button class="answer" id="answerThree" onclick="disable">Answer Three</button>
+        <!-- <span class="incorrect">This answer is incorrect. Please try again.</span> -->
+    </div>
+    
+    <div class="fourthAnswer">
+    <button class="answer" id="answerFour" onclick="disable">Answer Four</button>
+         <!--<span class="incorrect">This answer is incorrect. Please try again.</span> -->
+    </div> 
+    <div class="feedback" id="correct">Correct!</div>
+    <div class="feedback-err" id="incorrect">Incorrect! Refresh the page to try again.</div>
+  </section>
+    </main>
+ 
+ <!-- include jQuery CDN here -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+ <script src="script.js"></script>
+
+</body>
+</html>
